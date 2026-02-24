@@ -8,6 +8,7 @@ Dataset
     This project uses the Ames Housing dataset (1,460 transactions, 80+ features) to build and evaluate regularized regression models that balance predictive accuracy with interpretability.
 
 🔎 Key Insights
+
 Predicted vs Actual:
 The visualization below shows model predictions compared to true sale prices on the held-out test set. Homes cluster closely around the 45° reference line, indicating strong alignment between predicted and actual values.
 
