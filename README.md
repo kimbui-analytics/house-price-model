@@ -8,21 +8,21 @@ Dataset
     This project uses the Ames Housing dataset (1,460 transactions, 80+ features) to build and evaluate regularized regression models that balance predictive accuracy with interpretability.
 
 🔎 Key Insights
-    Predicted vs Actual:
+Predicted vs Actual:
     The visualization below shows model predictions compared to true sale prices on the held-out test set. Homes cluster closely around the 45° reference line, indicating strong alignment between predicted and actual values.
-<img src="reports/figures/predicted_vs_actual_ridge.png" width="600">
+    <img src="reports/figures/predicted_vs_actual_ridge.png" width="600">
     
-    Model Error Analysis:
+Model Error Analysis:
     Prediction errors are largest for high-end homes. Extremely expensive properties are inherently harder to price precisely and contribute disproportionately to total error. No systematic pricing bias was detected. The model does not consistently over- or under-estimate across the test set.
-<img src="reports/figures/residual_distribution_ridge.png" width="600">
+    <img src="reports/figures/residual_distribution_ridge.png" width="600">
     
-    Key Drivers of Sales Price:
+Key Drivers of Sales Price:
     Overall home quality and square footage are the strongest drivers of price. Larger, higher-quality homes consistently command higher sale prices.
-<img src="reports/figures/top_drivers_ridge_bar.png" width="600">
+    <img src="reports/figures/top_drivers_ridge_bar.png" width="600">
     
-    Regularization Comparison:
+Regularization Comparison:
     Regularization improves model stability. The dataset contains many correlated structural features (e.g., different measures of size), and regularization ensures predictions remain stable and generalizable. Simpler models perform nearly as well as complex ones. The Lasso model eliminated 15 predictors while maintaining similar accuracy, demonstrating that much of the predictive signal is concentrated in a smaller subset of features.
-<img src="reports/figures/ridge_vs_lasso_coefficients_top20.png" width="600">
+    <img src="reports/figures/ridge_vs_lasso_coefficients_top20.png" width="600">
     
 📊 Methodology
 Approach (High-Level)
