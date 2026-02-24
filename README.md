@@ -1,5 +1,9 @@
 Executive Summary
 
+Open the Analysis in Google Collab
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/kimbui-analytics/house-price-model/blob/main/notebooks/housing_model_analysis.ipynb)
+
 🏠 Housing Price Prediction (Ames Dataset)
 
 Business Question: What property characteristics most influence housing sale price, and can we build a stable, generalizable pricing model that supports decision-making without overfitting to historical noise? The goal was not only to predict prices, but to understand which factors consistently drive home value.
