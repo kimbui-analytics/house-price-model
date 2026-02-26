@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Raw data (Kaggle)
+data/raw/
+
+# Large derived files
+*.parquet
+*.hyper
+*.tde
+
+# Tableau packaged workbooks
+*.twbx
+
+# Temporary Tableau files
+*.twbr
+
+# macOS
+.DS_Store
+
+# data you don't want in git
+data/raw/
+data/processed/
